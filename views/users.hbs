@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar" style="background-color: #fafdfb;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span> 
+  </button>
+      <a class="navbar-brand " href="#">ShopCart</a>
+    </div>
+    <div class="collapse navbar-collapse fs-3" id="navbarSupportedContent">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="users/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </div>
+  </div>
+ 
+</nav>
+
+
+
+<div class="jumbotron" style="background-image: linear-gradient(#92b7e2,rgb(223, 165, 223));">
+  <div class="container text-center">
+    <h1 style="color: white;">Welcome </h1>      
+    <p style="color: #f2f2f2;">to ShopCart</p>
+  </div>
+</div>
+
+  <div class="container"> 
+        <div class="row"> 
+            <div class="col-md-3 col-sm-12 "> 
+              <div class="card mb-4" style="width: 24rem;">
+                <img class="card-img-top" style="width: 200px; height: 220px" src="https://media.ldlc.com/ld/products/00/05/88/62/LD0005886202_1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title text-center ">Apple I-phone</h4>
+                     <h4 class="price text-center">Rs:35699</h4>
+                    <p class="card-text">* 64 GB ROM<br>
+                      * 15.49 cm (6.1 inch)<br>
+                      * 12MP + 12MP <br>
+                      * A14 Bionic Chip </p>
+                     </div>
+                     <div class="card-footer text-center">
+                     <button type="button" class="btn btn-primary" id="apple">Add to cart</button>
+                 </div>
+              </div>
+           </div>
+            <div class="col-md-3 mb-4"> 
+              <div class="card" style="width: 24rem;">
+                <img class="card-img-top" style="width: 200px; height: 220px" src="https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/k/2/x/-original-imagtyxg7mdjhfqm.jpeg?q=70" alt="Card image cap" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title text-center ">Samsung Galaxy</h4>
+                     <h4 class="price text-center">Rs:26899</h4>
+                    <p class="card-text">* Display: 6.6 inches (16.72 cm)<br>
+                      * Memory: 6GB RAM<br>
+                      * Camera: 50MP + 2MP + 2MP<br>
+                      * Battery: 5000mAh</p>
+                     </div>
+                     <div class="card-footer text-center">
+                     <button type="button" class="btn btn-primary" id="samsung">Add to cart</button>
+                 </div>
+              </div>
+           </div>
+            <div class="col-md-3 mb-4"> 
+              <div class="card " style="width: 24rem;">
+                <img class="card-img-top" style="width: 200px; height: 220px" src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/v/v/z7-pro-5g-i2301-iqoo-original-imagt4yytnussbvm.jpeg?q=70" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title text-center ">IQOO Z 7 Pro</h4>
+                     <h4 class="price text-center">Rs:18699</h4>
+                    <p class="card-text">* 8 GB RAM | 256 GB ROM<br>
+                      * 17.22 cm (6.78 inch) Display<br>
+                      * 64MP Rear Camera<br>
+                      * 4600 mAh Battery</p>
+                     </div>
+                     <div class="card-footer text-center">
+                     <button type="button" class="btn btn-primary" id="iqoo">Add to cart</button>
+                 </div>
+              </div>
+           </div>
+             <div class="col-md-3 mb-4"> 
+              <div class="card " style="width: 24rem;">
+                <img class="card-img-top" style="width: 200px; height: 220px" src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/z/u/-original-imagtxvtmxpagdpn.jpeg?q=70" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title text-center ">One Plus Nord</h4>
+                     <h4 class="price text-center">Rs:21746</h4>
+                    <p class="card-text">* 8 GB RAM | 256 GB ROM<br>
+                      * 17.22 cm (6.78 inch) Display<br>
+                      * 64MP Rear Camera<br>
+                      * 4600 mAh Battery</p>
+                     </div>
+                     <div class="card-footer text-center">
+                     <button type="button" class="btn btn-primary" id="oneplus">Add to cart</button>
+                 </div>
+              </div>
+           </div>
+       </div>
+</div>
+
+
+
+<footer class="container-fluid text-center">
+  <p></p>
+</footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
